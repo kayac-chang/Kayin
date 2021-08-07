@@ -1,7 +1,7 @@
 import { Icon } from "./Icon";
 import { Button } from "./Button";
 
-export function Navbar() {
+export function BottomNavigation() {
   return (
     <>
       <Icon.Bounding className="opacity-0" />
@@ -18,12 +18,12 @@ export function Navbar() {
         <ul className="w-full flex justify-between py-6 px-8 bg-purple-dark rounded-t-3xl text-purple-light">
           <li>
             <a href="">
-              <Icon.Folder className="w-7" />
+              <Icon.Folder className="w-6" />
             </a>
           </li>
           <li>
             <a href="">
-              <Icon.Award className="w-7" />
+              <Icon.Award className="w-6" />
             </a>
           </li>
 
@@ -31,12 +31,12 @@ export function Navbar() {
 
           <li>
             <a href="">
-              <Icon.Heart className="w-7" />
+              <Icon.Heart className="w-6" />
             </a>
           </li>
           <li>
             <a href="">
-              <Icon.Book className="w-7" />
+              <Icon.Book className="w-6" />
             </a>
           </li>
         </ul>
